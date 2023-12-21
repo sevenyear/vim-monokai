@@ -78,9 +78,9 @@ let s:darkblack   = { "gui": "#211F1C", "cterm": "233" }
 let s:grey        = { "gui": "#8F908A", "cterm": "243" }
 let s:lightgrey   = { "gui": "#575b61", "cterm": "237" }
 let s:darkgrey    = { "gui": "#64645e", "cterm": "239" }
-let s:warmgrey    = { "gui": "#75715E", "cterm": "59" }
+let s:warmgrey    = { "gui": "#75715E", "cterm": "66" }
 
-let s:pink        = { "gui": "#F92772", "cterm": "197" }
+let s:pink        = { "gui": "#F92772", "cterm": "163" }
 let s:green       = { "gui": "#A6E22D", "cterm": "148" }
 let s:aqua        = { "gui": "#66d9ef", "cterm": "81" }
 let s:yellow      = { "gui": "#E6DB74", "cterm": "186" }
@@ -185,7 +185,7 @@ call s:h("Typedef",       { "fg": s:aqua })
 call s:h("Identifier",    { "fg": s:green })
 call s:h("Function",      { "fg": s:green })
                          
-call s:h("Statement",     { "fg": s:pink })
+call s:h("Statement",     { "fg": s:orange })
 call s:h("Operator",      { "fg": s:pink })
 call s:h("Label",         { "fg": s:pink })
 call s:h("Keyword",       { "fg": s:pink })
@@ -197,7 +197,7 @@ call s:h("PreProc",       { "fg": s:green })
 call s:h("Include",       { "fg": s:pink })
 call s:h("Define",        { "fg": s:pink })
 call s:h("Macro",         { "fg": s:green })
-call s:h("PreCondit",     { "fg": s:green })
+call s:h("PreCondit",     { "fg": s:purple })
                            
 call s:h("Special",       { "fg": s:purple })
 call s:h("SpecialChar",   { "fg": s:pink })
@@ -406,7 +406,7 @@ call s:h("erubyDelimiter",              {})
 call s:h("erubyRailsMethod",            { "fg": s:aqua })
 
 " c
-call s:h("cLabel",                      { "fg": s:pink })
+call s:h("cLabel",                      { "fg": s:orange })
 call s:h("cStructure",                  { "fg": s:aqua })
 call s:h("cStorageClass",               { "fg": s:pink })
 call s:h("cInclude",                    { "fg": s:pink })
